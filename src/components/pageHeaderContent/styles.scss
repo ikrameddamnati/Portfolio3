@@ -1,8 +1,12 @@
-.wrapper{
+
+
+.wrapper {
     display: flex;
     align-items: center;
     padding: 20px;
-    border-bottom:1px dashed var(--yellow-theme-main-color) ;
+    border-bottom: 1px dashed var(--yellow-theme-main-color);
+
+
     h2{
         font-size: 36px;
         font-weight: 700;
@@ -12,9 +16,9 @@
         color: var(--yellow-theme-main-color);
         display: flex;
         flex-grow: 1;
-
     }
-    span{
+
+    span {
         svg{
             color: var(--yellow-theme-main-color);
         }

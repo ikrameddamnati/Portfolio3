@@ -1,29 +1,38 @@
 import React from "react";
-import "./style.scss";
-import {useNavigate} from "react-router-dom";
-import {Animate} from 'react-simple-animate';
+import { useNavigate } from "react-router-dom";
+import { Animate } from "react-simple-animate";
+import "./styles.scss";
+
 const Home = () => {
-  const navigate=useNavigate();
-  const handleNavigationToContactMePage=()=>{
-    navigate("/contact")
-  }
+  const navigate = useNavigate();
+
+  const handleNavigateToContactMePage = () => {
+    navigate("/contact");
+  };
+
   return (
-    <section className="home" id="home">
-      <div className="home_text-wrapper">
+    <section id="home" className="home">
+      <div className="home__text-wrapper">
         <h1>
-          salut, je suis Ikram Ed-damnti <br/> Eleve ingénieur 
+          Salut,je suis ikram ed-damnati
+          <br />
+          élěve ingénieure
         </h1>
       </div>
-      <Animate play duration={1.5} delay={1} start={{
-        transform:"translateY(550px)",
-      } }
+      <Animate
+        play
+        duration={1.5}
+        delay={1}
+        start={{
+          transform: "translateY(550px)",
+        }}
         end={{
-          transform:"translatex(0px)",
-        }} >
-          <div className="home_contact-me">
-            <button onClick={handleNavigationToContactMePage}>contact-me</button>
-          </div>
-
+          transform: "translatex(0px)",
+        }}
+      >
+        <div className="home__contact-me">
+          <button onClick={handleNavigateToContactMePage}>Contact Me</button>
+        </div>
       </Animate>
     </section>
   );

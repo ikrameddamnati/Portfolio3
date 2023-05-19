@@ -1,15 +1,15 @@
-import React from "react";
-import './style.scss';
+import './styles.scss';
 
-const PageHeader = (props) => {
-  const { headerText, item } = props;
+const PageHeaderContent = (props) => {
+  const { headerText, icon } = props;
 
   return (
     <div className="wrapper">
       <h2>{headerText}</h2>
-      <span>{item}</span>
+      <span>{icon}</span>
     </div>
   );
 };
 
-export default PageHeader;
+
+export default PageHeaderContent;
