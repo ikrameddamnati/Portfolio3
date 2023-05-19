@@ -27,14 +27,7 @@ const personalDetails = [
     label: "Contact No",
     value: "+212 629788586",
   },
-  {
-    label: "Facebook",
-    value: "https://www.facebook.com/votre_nom_utilisateur",
-  },
-  {
-    label: "LinkedIn",
-    value: "https://www.linkedin.com/in/votre_nom_utilisateur",
-  },
+  
 ];
 
 const jobSummary ="";

@@ -1,33 +1,33 @@
 export const data = {
     experience: [
       {
-        title: "Projet de Fin d'année",
-        subTitle: "Gestion des notes",
+        title: "Developing a Grades Management",
+        subTitle: " using",
         description:
           " Laravel,MysQl,Bootstrap 2023",
       },
       {
-        title: "Projet ",
-        subTitle: "Gestion des itteniraire",
+        title: "Route Management Project",
+        subTitle: "using",
         description:
           "Python,Pyqt5 2022",
       },
       {
-        title: "Project Java",
-        subTitle: "Gestion de bibliotheque",
+        title: "Library Management System",
+        subTitle: "",
         description:
           "Java,Swing 2023",
       },
     ],
     education: [
       {
-        title: "éleve ingénieur",
-        subTitle: "ENSAJ",
+        title: " computer science student at ENSAJ",
+        subTitle: "",
         description:
           "2023",
       },
       {
-        title: "baccalauréat science physique",
+        title: "Bachelor's degree in Physical Sciences",
         subTitle: "ibn sina hight school",
         description:
           "2020",
