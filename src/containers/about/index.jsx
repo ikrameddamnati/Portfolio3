@@ -52,7 +52,7 @@ const About = () => {
               transform: "translatex(0px)",
             }}
           >
-            <h3>Élěve ingénieure</h3>
+            <h3>Computer science student</h3>
             <p>{jobSummary}</p>
           </Animate>
 
