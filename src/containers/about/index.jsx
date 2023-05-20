@@ -2,9 +2,9 @@ import React from "react";
 import { BsInfoCircleFill } from "react-icons/bs";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import { Animate } from "react-simple-animate";
-import "./styles.scss";
 import { DiApple, DiAndroid } from "react-icons/di";
 import { FaDev, FaDatabase } from "react-icons/fa";
+import "./styles.scss";
 
 const personalDetails = [
   {
@@ -27,20 +27,9 @@ const personalDetails = [
     label: "Contact No",
     value: "+212 629788586",
   },
-  
 ];
 
-const jobSummary ="Hello! My name is Ikram Ed-Damnati, and I am a computer science student currently studying at ENSAJ (École Nationale des Sciences Appliquées de Jerada). I have a strong passion for technology and an eagerness to expand my knowledge and skills in the field of computer science.
-
-Throughout my academic journey, I have acquired a solid foundation in various aspects of computer science, including programming, algorithms, data structures, and software development. These studies have equipped me with the necessary theoretical knowledge to excel in my field.
-
-I am constantly seeking opportunities to apply my knowledge in practical settings. One of my notable achievements was working on a collaborative project where I developed a web application that streamlined data management processes for a local business. This experience allowed me to showcase my problem-solving abilities, attention to detail, and effective teamwork.
-
-As a computer science student, I am particularly interested in areas such as artificial intelligence, data analysis, and software engineering. I stay up-to-date with the latest advancements in these fields and actively engage in projects and online courses to further enhance my skills.
-
-In addition to my technical skills, I value effective communication and collaboration. I believe that working well in a team and effectively conveying ideas are crucial for successful project outcomes. I enjoy exchanging knowledge and perspectives with others, as it helps foster a dynamic and innovative environment.
-
-Overall, I am a dedicated and motivated individual passionate about computer science and its applications.";
+const jobSummary = "Hello! My name is Ikram Ed-Damnati, and I am a computer science student currently studying at ENSAJ (École Nationale des Sciences Appliquées de Jerada). I have a strong passion for technology and an eagerness to expand my knowledge and skills in the field of computer science.\n\nThroughout my academic journey, I have acquired a solid foundation in various aspects of computer science, including programming, algorithms, data structures, and software development. These studies have equipped me with the necessary theoretical knowledge to excel in my field.\n\nI am constantly seeking opportunities to apply my knowledge in practical settings. One of my notable achievements was working on a collaborative project where I developed a web application that streamlined data management processes for a local business. This experience allowed me to showcase my problem-solving abilities, attention to detail, and effective teamwork.\n\nAs a computer science student, I am particularly interested in areas such as artificial intelligence, data analysis, and software engineering. I stay up-to-date with the latest advancements in these fields and actively engage in projects and online courses to further enhance my skills.\n\nIn addition to my technical skills, I value effective communication and collaboration. I believe that working well in a team and effectively conveying ideas are crucial for successful project outcomes. I enjoy exchanging knowledge and perspectives with others, as it helps foster a dynamic and innovative environment.\n\nOverall, I am a dedicated and motivated individual passionate about computer science and its applications.";
 
 const About = () => {
   return (
@@ -59,7 +48,7 @@ const About = () => {
               transform: "translateX(-900px)",
             }}
             end={{
-              transform: "translatex(0px)",
+              transform: "translateX(0px)",
             }}
           >
             <h3>Computer science student</h3>
@@ -74,7 +63,7 @@ const About = () => {
               transform: "translateX(500px)",
             }}
             end={{
-              transform: "translatex(0px)",
+              transform: "translateX(0px)",
             }}
           >
             <h3 className="personalInformationHeaderText">
