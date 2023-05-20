@@ -3,6 +3,7 @@ import { FaBars, FaReact } from "react-icons/fa";
 import { HiX } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import "./styles.scss";
+
 const data = [
   {
     label: "HOME",
@@ -20,7 +21,6 @@ const data = [
     label: "RESUME",
     to: "/resume",
   },
-  
   {
     label: "CONTACT",
     to: "/contact",
@@ -33,6 +33,7 @@ const Navbar = () => {
   const handleToggleIcon = () => {
     setToggleIcon(!toggleIcon);
   };
+
   return (
     <div>
       <nav className="navbar">
@@ -42,7 +43,9 @@ const Navbar = () => {
           </Link>
         </div>
         <ul
-          className={`navbar__container__menu ${toggleIcon ? "active" : ""} `}
+          className={`navbar__container__menu ${
+            toggleIcon ? "active" : "inactive"
+          } `}
         >
           {data.map((item, key) => (
             <li key={key} className="navbar__container__menu__item">
