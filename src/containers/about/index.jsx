@@ -40,7 +40,7 @@ As a computer science student, I am particularly interested in areas such as art
 
 In addition to my technical skills, I value effective communication and collaboration. I believe that working well in a team and effectively conveying ideas are crucial for successful project outcomes. I enjoy exchanging knowledge and perspectives with others, as it helps foster a dynamic and innovative environment.
 
-Overall, I am a dedicated and motivated individual passionate about computer science and its applications. I am excited about the opportunities that lie ahead and look forward to making a positive impact in the field. If you have any questions or would like to connect, please feel free to reach out to me.";
+Overall, I am a dedicated and motivated individual passionate about computer science and its applications.";
 
 const About = () => {
   return (
