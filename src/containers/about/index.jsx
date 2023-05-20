@@ -67,7 +67,7 @@ const About = () => {
             <p>{jobSummary}</p>
           </Animate>
 
-          <Animate
+         <Animate
             play
             duration={1.5}
             delay={1}
@@ -85,7 +85,13 @@ const About = () => {
               {personalDetails.map((item, i) => (
                 <li key={i}>
                   <span className="title">{item.label}</span>
-                  <span className="value">{item.value}</span>
+                  {item.label === "Facebook" || item.label === "LinkedIn" || item.label === "GitHub" ? (
+                    <a href={item.value} className="social-link">
+                      {item.value}
+                    </a>
+                  ) : (
+                    <span className="value">{item.value}</span>
+                  )}
                 </li>
               ))}
             </ul>
