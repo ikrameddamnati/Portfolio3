@@ -44,7 +44,7 @@ const Navbar = () => {
         </div>
         <ul
           className={`navbar__container__menu ${
-            toggleIcon ? "active" : "inactive"
+            toggleIcon ? "inactive" : "active"
           } `}
         >
           {data.map((item, key) => (
