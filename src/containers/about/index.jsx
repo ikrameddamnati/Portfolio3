@@ -85,7 +85,7 @@ const About = () => {
               {personalDetails.map((item, i) => (
                 <li key={i}>
                   <span className="title">{item.label}</span>
-                  {item.label === "Facebook" || item.label === "LinkedIn" || item.label === "GitHub" ? (
+                  {item.label === "Facebook" || item.label === "Linked IN" || item.label === "Github" ? (
                     <a href={item.value} className="social-link">
                       {item.value}
                     </a>
